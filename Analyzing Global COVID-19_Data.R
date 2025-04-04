@@ -3,7 +3,7 @@ install.packages("tidyverse")
 library(tidyverse)
 
 # Read the dataset
-covid_data <- read.csv("D:\\R projects\\Analyzing Global COVID-19 Data\\owid-covid-data.csv")
+covid_data <- read.csv(file.choose())
 
 # View dataset structure
 str(covid_data)
